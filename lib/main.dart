@@ -118,7 +118,200 @@ class __TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
 
           //tab starts
           Container(
-          )
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
+
+          Container(
+            color: Colors.lightBlue.shade50,
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Weather', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 12),
+                TextField(
+                  controller: _cityController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter city name',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                ElevatedButton(
+                  onPressed: _fetchWeather,
+                  child: const Text('Fetch Weather'),
+                ),
+                const SizedBox(height: 24),
+                Text('City: $_city'),
+                Text('Temperature: $_temp'),
+                Text('Condition: $_condition'),
+              ],
+            ),
+          ),
         ],
       ),
     );
